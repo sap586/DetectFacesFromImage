@@ -1,0 +1,24 @@
+C:\Users\sagar\Desktop\Face Pics\2.jpg
+Major & Minor Axis Radii : 148, 148, Center X : 357, Center Y : 237
+Major & Minor Axis Radii : 141, 141, Center X : 577, Center Y : 282
+Major & Minor Axis Radii : 142, 142, Center X : 842, Center Y : 296
+Major & Minor Axis Radii : 149, 149, Center X : 128, Center Y : 329
+C:\Users\sagar\Desktop\Face Pics\big.jpg
+Major & Minor Axis Radii : 51, 51, Center X : 265, Center Y : 252
+Major & Minor Axis Radii : 81, 81, Center X : 851, Center Y : 61
+Major & Minor Axis Radii : 63, 63, Center X : 393, Center Y : 216
+Major & Minor Axis Radii : 50, 50, Center X : 1620, Center Y : 241
+Major & Minor Axis Radii : 77, 77, Center X : 1168, Center Y : 129
+Major & Minor Axis Radii : 61, 61, Center X : 1400, Center Y : 210
+Major & Minor Axis Radii : 76, 76, Center X : 589, Center Y : 149
+C:/Users/sagar/Desktop/Omron/docs/2003/01/13/big/img_195.jpg
+Major & Minor Axis Radii : 36, 36, Center X : 97, Center Y : 282
+Major & Minor Axis Radii : 59, 59, Center X : 127, Center Y : 40
+C:/Users/sagar/Desktop/Omron/docs/2003/01/13/big/img_195.jpg
+Major & Minor Axis Radii : 36, 36, Center X : 97, Center Y : 282
+Major & Minor Axis Radii : 59, 59, Center X : 127, Center Y : 40
+C:/Users/sagar/Desktop/Omron/docs/2002/08/05/big/img_3658.jpg
+C:/Users/sagar/Desktop/Omron/docs/2002/08/06/big/img_2739.jpg
+Major & Minor Axis Radii : 27, 27, Center X : 245, Center Y : 58
+Major & Minor Axis Radii : 40, 40, Center X : 118, Center Y : 76
+Major & Minor Axis Radii : 34, 34, Center X : 307, Center Y : 65
