@@ -1,3 +1,5 @@
+import static org.opencv.core.Core.ellipse;
+
 import java.awt.Color;
 import java.awt.Graphics;
 import java.awt.event.ActionEvent;
@@ -15,7 +17,10 @@ import javax.swing.SwingUtilities;
 
 import org.opencv.core.Mat;
 import org.opencv.core.MatOfRect;
+import org.opencv.core.Point;
 import org.opencv.core.Rect;
+import org.opencv.core.Scalar;
+import org.opencv.core.Size;
 import org.opencv.highgui.VideoCapture;
 import org.opencv.objdetect.CascadeClassifier;
 
@@ -63,6 +68,9 @@ public class CameraPanel extends JPanel implements Runnable, ActionListener {
 					matToBufferedImage(webcam_image);
 					faceDetector.detectMultiScale(webcam_image, faceDetections);
 					repaint();
+				}
+				if (CameraFrame.flag == 1) {
+					capture.release();
 				}
 			}
 		}

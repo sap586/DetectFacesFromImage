@@ -1,5 +1,7 @@
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.awt.event.WindowAdapter;
+import java.awt.event.WindowEvent;
 
 import javax.swing.JFrame;
 import javax.swing.JMenu;
@@ -13,10 +15,13 @@ import org.opencv.highgui.VideoCapture;
 public class CameraFrame extends JFrame {
 	
 	CameraPanel cp;
+	VideoCapture list;
+	static int flag;
 	
 	CameraFrame() {
 		System.loadLibrary(Core.NATIVE_LIBRARY_NAME);
-		VideoCapture list = new VideoCapture(0);
+		list = new VideoCapture(0);
+		//VideoCapture list = new VideoCapture(0);
 		cp = new CameraPanel();
 		Thread thread = new Thread(cp);
 		JMenu camera = new JMenu("Camera");
@@ -35,10 +40,14 @@ public class CameraFrame extends JFrame {
 		setDefaultCloseOperation(WindowConstants.DISPOSE_ON_CLOSE);
 		setSize(400, 400);
 		setVisible(true);
-	}
-	
-	public static void main(String[] args) {
-		CameraFrame cf = new CameraFrame();
+		addWindowListener(new WindowAdapter() {
+            @Override
+            public void windowClosing(WindowEvent e) {
+                System.out.println("Camera Frame Closed");
+                CameraFrame.this.flag = 1;
+            }
+        });
+		flag = 0;
 	}
 
 }

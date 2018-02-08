@@ -72,7 +72,7 @@ class AddImageFrame extends JFrame {
             		fw.close();
                 } catch (Exception e) {
                 	System.out.println("Cannot Open File");
-                }       	
+                }
 				putText(image, "(" + ++num + ")", new Point(rect.x, rect.y), FONT_HERSHEY_TRIPLEX, 1, new Scalar(0, 0, 255));
             }
             
